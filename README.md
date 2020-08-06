@@ -25,6 +25,7 @@ A step by step series of examples that tell you how to get a development env run
 
 Say what the step will be
 
+To Install (First steps):
 ```shell
 $ python3 -m venv venv
 $ source venv/bin/activate
@@ -32,13 +33,21 @@ $ pip3 install django -U
 $ pip3 freeze > requirements.txt
 ```
 
-And repeat
+To start the project
 
+```shell
+$ django-admin startproject .
 ```
-until finished
+
+To Execute
+```shell
+$ python3 -m venv venv
+$ source venv/bin/activate
+$ pip3 install -r requirements.txt
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
+
 
 ## Running the tests ⚙️
 
