@@ -37,6 +37,7 @@ To start the project
 
 ```shell
 $ django-admin startproject .
+$ python3 manage.py runserver
 ```
 
 To Execute
@@ -44,6 +45,7 @@ To Execute
 $ python3 -m venv venv
 $ source venv/bin/activate
 $ pip3 install -r requirements.txt
+$ python3 manage.py runserver
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
